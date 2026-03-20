@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://redx.ca/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://redx.ca/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://redx.ca/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://redx.ca/" />
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://redx.ca/services</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://redx.ca/services" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://redx.ca/en/services" />
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://redx.ca/en/services</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://redx.ca/services" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://redx.ca/en/services" />
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://redx.ca/a-propos</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://redx.ca/a-propos" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://redx.ca/en/about" />
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://redx.ca/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://redx.ca/a-propos" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://redx.ca/en/about" />
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://redx.ca/realisations</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://redx.ca/realisations" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://redx.ca/en/portfolio" />
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://redx.ca/en/portfolio</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://redx.ca/realisations" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://redx.ca/en/portfolio" />
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://redx.ca/contact</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://redx.ca/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://redx.ca/en/contact" />
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://redx.ca/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://redx.ca/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://redx.ca/en/contact" />
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://redx.ca/politique-de-confidentialite</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://redx.ca/politique-de-confidentialite" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://redx.ca/en/privacy-policy" />
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://redx.ca/en/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://redx.ca/politique-de-confidentialite" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://redx.ca/en/privacy-policy" />
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://redx.ca/conditions-utilisation</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://redx.ca/conditions-utilisation" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://redx.ca/en/terms-of-use" />
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://redx.ca/en/terms-of-use</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://redx.ca/conditions-utilisation" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://redx.ca/en/terms-of-use" />
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+</urlset>

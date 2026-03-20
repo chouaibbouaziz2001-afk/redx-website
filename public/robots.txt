@@ -1,0 +1,10 @@
+# REDX Robots.txt
+# Allow all crawlers
+
+User-agent: *
+Allow: /
+
+Sitemap: https://redx.ca/sitemap.xml
+
+# Disallow admin/internal paths
+Disallow: /api/
