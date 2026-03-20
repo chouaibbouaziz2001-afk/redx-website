@@ -32,7 +32,7 @@ export function renderContact() {
           <form id="contact-form" action="https://formsubmit.co/redexagency1@gmail.com" method="POST" class="reveal">
             <!-- Formsubmit.co config -->
             <input type="hidden" name="_subject" value="Nouvelle demande REDX / New REDX inquiry">
-            <input type="hidden" name="_captcha" value="true">
+            <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_template" value="table">
             <input type="hidden" name="_next" value="${typeof window !== 'undefined' ? window.location.origin : ''}${lang === 'en' ? '/en' : ''}/contact?success=1">
             <input type="text" name="_honey" style="display:none">
