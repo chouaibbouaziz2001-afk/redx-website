@@ -29,7 +29,7 @@ export function renderContact() {
     <section class="section section-darker">
       <div class="container">
         <div class="contact-grid">
-          <form id="contact-form" action="https://formsubmit.co/info@redx.agency" method="POST" class="reveal">
+          <form id="contact-form" action="https://formsubmit.co/redexagency1@gmail.com" method="POST" class="reveal">
             <!-- Formsubmit.co config -->
             <input type="hidden" name="_subject" value="Nouvelle demande REDX / New REDX inquiry">
             <input type="hidden" name="_captcha" value="true">
