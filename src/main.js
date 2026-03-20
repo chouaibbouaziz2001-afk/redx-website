@@ -156,14 +156,41 @@ function bindCTATracking() {
 function bindFormTracking() {
   const form = document.getElementById('contact-form');
   if (form) {
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
+    // Set dynamic _next URL now that window is available
+    const nextInput = form.querySelector('input[name="_next"]');
+    if (nextInput) {
+      const lang = getCurrentLang();
+      nextInput.value = window.location.origin + (lang === 'en' ? '/en' : '') + '/contact?success=1';
+    }
+
+    form.addEventListener('submit', () => {
       const select = form.querySelector('.form-select');
       const service = select ? select.value : '';
       trackFormSubmit(service);
-      // Show success feedback (optional enhancement)
-      alert(getCurrentLang() === 'fr' ? 'Merci ! Votre demande a été envoyée.' : 'Thank you! Your request has been sent.');
+      // Let the form POST to Formsubmit.co naturally
     });
+  }
+
+  // Show success message if redirected back after submission
+  if (window.location.search.includes('success=1')) {
+    setTimeout(() => {
+      const form = document.getElementById('contact-form');
+      if (form) {
+        form.innerHTML = `
+          <div style="text-align: center; padding: var(--spacing-2xl) var(--spacing-lg);">
+            <div style="font-size: 4rem; margin-bottom: var(--spacing-lg);">✅</div>
+            <h2 style="font-size: var(--font-size-xl); font-weight: 800; margin-bottom: var(--spacing-md); color: var(--white);">
+              ${getCurrentLang() === 'fr' ? 'Merci ! Votre demande a été envoyée.' : 'Thank you! Your request has been sent.'}
+            </h2>
+            <p style="color: var(--gray-text); font-size: var(--font-size-base);">
+              ${getCurrentLang() === 'fr'
+            ? 'Nous vous contacterons sous 24 heures pour confirmer votre rendez-vous.'
+            : 'We will contact you within 24 hours to confirm your appointment.'}
+            </p>
+          </div>
+        `;
+      }
+    }, 100);
   }
 }
 

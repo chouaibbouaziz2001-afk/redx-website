@@ -840,6 +840,71 @@ select {
   color: var(--white);
 }
 
+/* --- Booking fields --- */
+.form-group-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-md);
+}
+
+.meeting-type-toggle {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+.meeting-option {
+  flex: 1;
+  cursor: pointer;
+}
+
+.meeting-option input[type="radio"] {
+  display: none;
+}
+
+.meeting-option-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-md) var(--spacing-lg);
+  border: 2px solid var(--gray-border);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  transition: all 0.3s ease;
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+}
+
+.meeting-option-icon {
+  font-size: 1.3em;
+}
+
+.meeting-option input[type="radio"]:checked+.meeting-option-label {
+  border-color: var(--red);
+  background: rgba(204, 0, 0, 0.15);
+  color: var(--white);
+  box-shadow: 0 0 20px rgba(204, 0, 0, 0.2);
+}
+
+.meeting-option-label:hover {
+  border-color: rgba(204, 0, 0, 0.5);
+  background: rgba(204, 0, 0, 0.08);
+}
+
+input[type="date"] {
+  color-scheme: dark;
+}
+
+@media (max-width: 600px) {
+  .form-group-row {
+    grid-template-columns: 1fr;
+  }
+
+  .meeting-type-toggle {
+    flex-direction: column;
+  }
+}
+
 .contact-info {
   padding: var(--spacing-xl);
   background: var(--charcoal-light);
